@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "block": {
+            "block": "minecraft:barrel",
+            "nbt": "{CustomName:'{\"translate\":\"proton_offset.-16\",\"with\":[{\"color\":\"white\",\"text\":\"\"}]}',Items:[{Slot:0b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:4b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:5b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:6b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:7b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:8b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:9b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:13b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:14b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:16b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:17b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:18b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:22b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:23b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:24b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:25b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}},{Slot:26b,id:\"minecraft:black_stained_glass_pane\",Count:1b,tag:{CustomModelData:1281000,display:{Name:'{\"text\":\"\"}'}}}]}",
+            "state": {
+                "open": "true"
+            }
+        }
+    }
+}

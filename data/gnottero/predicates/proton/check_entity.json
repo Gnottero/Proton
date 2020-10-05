@@ -1,0 +1,28 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:player"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:armor_stand",
+                "nbt": "{Invisible:1b, Small:1b, Tags:[\"gn.proton_crafting\"]}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{Item:{id:\"minecraft:black_stained_glass_pane\", tag:{CustomModelData:1281000}}}"
+            }
+        }
+    ]
+}

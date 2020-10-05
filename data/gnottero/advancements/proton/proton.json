@@ -1,0 +1,17 @@
+{
+     "criteria": {
+          "trigger": {
+               "trigger": "minecraft:tick"
+          }
+     },
+     "display": {
+          "announce_to_chat": false,
+          "description": "A Crafting Library by Gnottero",
+          "icon": {
+               "item": "minecraft:crafting_table"
+          },
+          "show_toast": false,
+          "title": "Proton"
+     },
+     "parent": "global:gnottero"
+}

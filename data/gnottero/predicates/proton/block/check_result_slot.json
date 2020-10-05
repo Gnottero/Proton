@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "block": "minecraft:barrel",
+                "nbt": "{Items:[{Slot:15b}]}"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "block": "minecraft:barrel",
+                    "nbt": "{Items:[{Slot:15b, tag:{gn.proton_crafting_result:1b}}]}"
+                }
+            }
+        }
+    }
+]

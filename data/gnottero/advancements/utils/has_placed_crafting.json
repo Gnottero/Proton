@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "gnottero:proton/events/block/world/has_placed"
+    },
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {}
+                },
+                "item": {
+                    "item": "minecraft:armor_stand",
+                    "nbt": "{ctc:{id:\"proton_crafting\",from:\"gnottero:proton\",traits:{\"block\":1b, \"block/crafting_table\":1b}}}"
+                }
+            }
+        }
+    }
+}

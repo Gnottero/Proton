@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Proton Crafting Table",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{NoGravity:1b, Small:1b, Invisible:1b, Tags:[\"gn.proton_crafting\", \"gn.place_proton_crafting\", \"global.ignore.pos\", \"global.ignore\", \"global.ignore.kill\"]}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc:{id:\"proton_crafting\",from:\"gnottero:proton\",traits:{\"block\":1b, \"block/crafting_table\":1b}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
