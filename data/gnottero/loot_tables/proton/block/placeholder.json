@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:1281000}"
+                            "tag": "{CustomModelData:1281000,ctc:{id:\"proton_crafting\",from:\"gnottero:proton\",traits:{\"item\":1b, \"item/placeholder\":1b}}}"
                         },
                         {
                             "function": "minecraft:set_name",

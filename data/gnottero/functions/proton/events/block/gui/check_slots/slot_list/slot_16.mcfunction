@@ -2,6 +2,6 @@
     #> Called by the "gnottero:proton/events/block/gui/main" function
 
     #> Store the data and draw the item
-        execute if data block ~ ~ ~ Items[{Slot: 16b}].Count run data modify storage gnottero:proton/block drop_items insert -1 from block ~ ~ ~ Items[{Slot:16b}]
+        execute if data storage gnottero:proton/block ProtonGui[{Slot: 16b}].Count run data modify storage gnottero:proton/block drop_items insert -1 from storage gnottero:proton/block ProtonGui[{Slot: 16b}]
         loot replace block ~ ~ ~ container.16 loot gnottero:proton/block/placeholder
         

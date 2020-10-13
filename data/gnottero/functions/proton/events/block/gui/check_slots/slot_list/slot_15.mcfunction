@@ -2,5 +2,5 @@
     #> Called by the "gnottero:proton/events/block/gui/main" function
 
     #> Store the data and remove the item
-        execute if data block ~ ~ ~ Items[{Slot: 15b}].Count run data modify storage gnottero:proton/block drop_items insert -1 from block ~ ~ ~ Items[{Slot:15b}]
+        data modify storage gnottero:proton/block drop_items insert -1 from block ~ ~ ~ Items[{Slot: 15b}]
         replaceitem block ~ ~ ~ container.15 minecraft:air
