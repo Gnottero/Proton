@@ -16,11 +16,11 @@
         "terms": [
             {
                 "condition": "minecraft:reference",
-                "name": "gnottero:proton/block/recipes/glass_to_ender_chest"
+                "name": "gnottero_recipe_pack:proton/recipes/first_nbt_recipe"
             },
             {
                 "condition": "minecraft:reference",
-                "name": "gnottero:proton/block/recipes/first_nbt_recipe"
+                "name": "gnottero_recipe_pack:proton/recipes/glass_to_ender_chest"
             }
         ]
     }
