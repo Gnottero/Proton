@@ -1,0 +1,31 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/proton_gui.png",
+            "height": 256,
+            "ascent": 23,
+            "chars": [
+                "\ue000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/empty_char.png",
+            "ascent": -32768,
+            "height": -18,
+            "chars": [
+                "\ue001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:custom/empty_char.png",
+            "ascent": -32768,
+            "height": 15,
+            "chars": [
+                "\ue002"
+            ]
+        }
+    ]
+}
