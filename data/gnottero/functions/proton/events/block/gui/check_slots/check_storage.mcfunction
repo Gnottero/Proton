@@ -1,7 +1,5 @@
 #> Check which item isn't a placeholder and call the right function
-    #> Called by the "" function
-
-    say test
+    #> Called by the "gnottero:proton/events/block/gui/check_slots/main" function
 
     #> First Row
         execute unless data storage gnottero:proton/block ProtonGui[{Slot:0b, Count:1b}].tag.ctc.traits{"item/placeholder":1b} run function gnottero:proton/events/block/gui/check_slots/slot_list/slot_0
@@ -25,10 +23,6 @@
         execute unless data storage gnottero:proton/block ProtonGui[{Slot:24b, Count:1b}].tag.ctc.traits{"item/placeholder":1b} run function gnottero:proton/events/block/gui/check_slots/slot_list/slot_24
         execute unless data storage gnottero:proton/block ProtonGui[{Slot:25b, Count:1b}].tag.ctc.traits{"item/placeholder":1b} run function gnottero:proton/events/block/gui/check_slots/slot_list/slot_25
         execute unless data storage gnottero:proton/block ProtonGui[{Slot:26b, Count:1b}].tag.ctc.traits{"item/placeholder":1b} run function gnottero:proton/events/block/gui/check_slots/slot_list/slot_26
-
-
-
-
 
 
 

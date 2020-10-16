@@ -1,5 +1,5 @@
 #> Check in which slot of the hopper there is a placeholder and remove it
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/world/lock_hoppers" function
 
     #> Perform all the check and remove the item
         execute if data block ~ ~ ~ Items[{Slot:0b, id:"minecraft:black_stained_glass_pane"}].tag{CustomModelData:1281000} run replaceitem block ~ ~ ~ container.0 minecraft:air

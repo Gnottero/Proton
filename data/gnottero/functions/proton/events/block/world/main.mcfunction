@@ -1,5 +1,5 @@
 #> Check if the block is placeable and execute the right function
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/world/has_placed" function
 
     #> Call the "gnottero:proton/events/block/world/remove_block" function if the block was placed in a non-air spot
         execute unless block ~ ~ ~ #gnottero:air run function gnottero:proton/events/block/world/remove_block

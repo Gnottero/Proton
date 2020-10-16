@@ -1,5 +1,5 @@
 #> Check if the player is performing a recipe and handle the event
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/main" function
 
     #> Remove the item in the result slot if it isn't a crafting result
         execute if predicate gnottero:proton/block/check_result_slot run function gnottero:proton/events/block/gui/check_slots/slot_list/slot_15

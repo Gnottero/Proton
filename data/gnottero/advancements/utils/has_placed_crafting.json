@@ -10,7 +10,7 @@
                     "block": {}
                 },
                 "item": {
-                    "item": "minecraft:armor_stand",
+                    "item": "minecraft:item_frame",
                     "nbt": "{ctc:{id:\"proton_crafting\",from:\"gnottero:proton\",traits:{\"block\":1b, \"block/crafting_table\":1b}}}"
                 }
             }

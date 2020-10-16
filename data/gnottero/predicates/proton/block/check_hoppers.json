@@ -9,15 +9,6 @@
           "nbt": "{TransferCooldown:1}"
         }
       }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "block": {
-          "block": "minecraft:hopper",
-          "nbt": "{TransferCooldown:0}"
-        }
-      }
     }
   ]
 }

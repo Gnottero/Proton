@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:armor_stand",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -16,7 +16,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{NoGravity:1b, Small:1b, Invisible:1b, Tags:[\"gn.proton_crafting\", \"gn.place_proton_crafting\", \"global.ignore.pos\", \"global.ignore\", \"global.ignore.kill\"]}}"
+              "tag": "{CustomModelData:1281000,EntityTag:{Facing:1b, Fixed:1b, Invisible:1b, Tags:[\"gn.proton_crafting\", \"gn.place_proton_crafting\", \"global.ignore.pos\", \"global.ignore\", \"global.ignore.kill\"]}}"
             },
             {
               "function": "minecraft:set_nbt",

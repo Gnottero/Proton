@@ -1,5 +1,5 @@
 #> Remove all the proton crafting tables when the datapack is disabled
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/uninstall" function
 
     #> Remove the barrel at the custom block position
         setblock ~ ~ ~ minecraft:air destroy

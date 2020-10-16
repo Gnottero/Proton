@@ -1,5 +1,5 @@
 #> Summon the item in order to give it back to the player
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/main" function
 
     #> Summon a placeholder
         summon minecraft:item ~ ~1 ~ {Tags:["gn.proton_placeholder"], Item:{id:"minecraft:stone", Count:1b}}
