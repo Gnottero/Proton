@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:netherite_hoe",
+                    "name": "minecraft:netherite_chestplate",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
@@ -14,7 +14,7 @@
                         {
                             "function": "minecraft:set_name",
                             "name": {
-                                "text": "NBT Netherite Hoe",
+                                "text": "[Lvl.2] Netherite Chestplate",
                                 "italic": false,
                                 "color": "dark_purple"
                             }
@@ -23,14 +23,15 @@
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": ""
-                                },
-                                {
-                                    "text": "This is the best hoe ever, because it has nbts",
-                                    "color": "gray",
-                                    "italic": false
+                                    "text": "[Advanced Gear]",
+                                    "italic": false,
+                                    "color": "gray"
                                 }
                             ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
                         }
                     ]
                 }

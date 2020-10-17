@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "block": "minecraft:barrel",
+                "nbt": "{Items:[{Slot:1b, id:\"minecraft:netherite_ingot\"},{Slot:3b, id:\"minecraft:netherite_ingot\"},{Slot:10b, id:\"minecraft:netherite_ingot\"},{Slot:11b, id: \"minecraft:enchanted_book\", Count: 1b, tag: {StoredEnchantments: [{lvl: 3s, id: \"minecraft:fire_protection\"}]}},{Slot:12b, id:\"minecraft:netherite_ingot\"},{Slot:19b, id:\"minecraft:netherite_ingot\"},{Slot:20b, id:\"minecraft:netherite_ingot\"},{Slot:21b, id:\"minecraft:netherite_ingot\"}]}"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "block": "minecraft:barrel",
+                    "nbt": "{Items:[{Slot:2b}]}"
+                }
+            }
+        }
+    }
+]

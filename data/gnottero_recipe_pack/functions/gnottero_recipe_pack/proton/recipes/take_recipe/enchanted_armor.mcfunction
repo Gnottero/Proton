@@ -3,7 +3,6 @@
 
     #> Reduce the count of the items used in the recipe
         execute store result block ~ ~ ~ Items[{Slot:1b}].Count byte 0.984375 run data get block ~ ~ ~ Items[{Slot:1b}].Count
-        execute store result block ~ ~ ~ Items[{Slot:2b}].Count byte 0.984375 run data get block ~ ~ ~ Items[{Slot:2b}].Count
         execute store result block ~ ~ ~ Items[{Slot:3b}].Count byte 0.984375 run data get block ~ ~ ~ Items[{Slot:3b}].Count
         
         execute store result block ~ ~ ~ Items[{Slot:10b}].Count byte 0.984375 run data get block ~ ~ ~ Items[{Slot:10b}].Count
