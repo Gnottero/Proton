@@ -1,5 +1,6 @@
 {
      "values": [
-          "gnottero:proton/setup"
+          "gnottero:proton/setup",
+          "gnottero:proton/main"
      ]
 }
