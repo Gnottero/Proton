@@ -1,25 +1,21 @@
 #> Check which GUI element is missing and set it back
     #> Called by the "gnottero:proton/events/block/gui/main" function
 
-    #> Store the Items of the barrel inside the "gnottero:proton/block" storage
-        data modify storage gnottero:proton/block ProtonGui set from block ~ ~ ~ Items
+    tellraw @p [{"text": "Reset Inv "},{"nbt":"GuiHandler[{Slot:0b}].id","storage":"gnottero:proton/block"}]
 
-    #> Remove the crafting and result slots from the "gnottero:proton/block" storage
+    #> Cambiare il sistema:
+    # Si rimuovono i placeholder della gui dallo storage
+    # Si evoca il l'item diverso
+    # Si resetta l'inventario
 
-        #> First Row
-            data remove storage gnottero:proton/block ProtonGui[{Slot:1b}]
-            data remove storage gnottero:proton/block ProtonGui[{Slot:2b}]
-            data remove storage gnottero:proton/block ProtonGui[{Slot:3b}]
+    #> Remove the placeholders from the "" storage and run the function if there are still elements inside
+        data remove storage gnottero:proton/block GuiItems[{tag:{ctc:{from: "gnottero:proton",traits:{"item/placeholder":1b}}}}]
 
-        #> Second Row
-            data remove storage gnottero:proton/block ProtonGui[{Slot:10b}]
-            data remove storage gnottero:proton/block ProtonGui[{Slot:11b}]
-            data remove storage gnottero:proton/block ProtonGui[{Slot:12b}]
+    #> Call the "" to return the items that are still inside the storage
+        execute if data storage gnottero:proton/block GuiItems[] run function gnottero:proton/events/block/gui/check_slots/return_item
 
-        #> Third Row
-            data remove storage gnottero:proton/block ProtonGui[{Slot:19b}]
-            data remove storage gnottero:proton/block ProtonGui[{Slot:20b}]
-            data remove storage gnottero:proton/block ProtonGui[{Slot:21b}]
-
-    #> Call the "gnottero:proton/events/block/gui/check_slots/check_storage" function to fix the Gui of the block
-        function gnottero:proton/events/block/gui/check_slots/check_storage
+    #> Set the "GuiItems" storage back to default
+        data modify storage gnottero:proton/block GuiItems set value [{Slot: 0b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 4b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 5b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 6b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 7b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 8b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 9b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 13b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 14b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 16b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 17b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 18b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 22b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 23b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 24b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 25b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}, {Slot: 26b, id: "minecraft:black_stained_glass_pane", Count: 1b, tag: {ctc: {from: "gnottero:proton", traits: {item: 1b, "item/placeholder": 1b}, id: "proton_crafting"}, CustomModelData: 1281000, display: {Name: '{"text":""}'}}}]
+    
+    #> Modify the block gui from the "" storage
+        data modify block ~ ~ ~ Items append from storage gnottero:proton/block GuiItems[]

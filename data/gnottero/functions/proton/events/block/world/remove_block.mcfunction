@@ -11,7 +11,7 @@
         execute if block ~ ~-1 ~ minecraft:hopper run data modify block ~ ~-1 ~ TransferCooldown set value 0
 
     #> If the armor stand has the "gn.is_crafting" tag and there is a result nearby, kill it
-        execute if entity @s[tag=gn.is_crafting] run kill @e[type=minecraft:item, nbt={Age:0s, Item:{tag:{gn.proton_crafting_result:1b}}}, distance=..1.2]
+        execute if entity @s[tag=gn.is_crafting] as @e[type=minecraft:item, nbt={Age:0s}, distance=..1.2] run function gnottero:proton/events/block/world/remove_recipe_result
 
     #> Kill the armor stand
         kill @s

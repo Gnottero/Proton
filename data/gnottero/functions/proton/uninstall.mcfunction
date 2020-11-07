@@ -1,5 +1,8 @@
 #> This is the uninstall function
 
+    #> Remove all the scoreboards
+        scoreboard objectives remove gn.proton_check
+
     #> Call the "gnottero:proton/events/block/world/remove_all" function as every armor stand with the "gn.proton_crafting" tag
         execute as @e[type=minecraft:armor_stand, tag=gn.proton_crafting] at @s run function gnottero:proton/events/block/world/remove_all
 
