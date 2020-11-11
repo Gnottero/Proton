@@ -7,7 +7,7 @@
     #> Try to store the item in the result slot
         execute store success score #gn.found_item gn.proton_check run data modify storage gnottero:proton/block TempStorage set from block ~ ~ ~ Items[{Slot:15b}]
 
-    #> If there wasn't an item reduce the count of the ingredients (colpevole)
+    #> If there wasn't an item reduce the count of the ingredients
         execute if score #gn.found_item gn.proton_check matches 0 if score #gn.special_recipe_id gn.proton_check matches -2147483648..2147483647 run function gnottero:proton/events/block/gui/recipes_handler/recipe_took_functions/main
 
         execute if score #gn.found_item gn.proton_check matches 0 run function gnottero:proton/events/block/gui/recipes_handler/reduce_item_count
