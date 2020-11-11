@@ -1,4 +1,4 @@
-#> Add the "" tag to the executor and put the result item in the result slot
+#> Execute the special took action on the item
     #> Called by the "" function
 
     #> Reduce the count of the items used in the recipe

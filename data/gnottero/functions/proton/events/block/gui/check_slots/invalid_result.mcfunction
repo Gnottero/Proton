@@ -1,7 +1,5 @@
 #> Remove the item(s) in the 15th slot, if it isn't a crafting result
-    #> Called by the "" function
-
-    say invalid
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/main" function
 
     #> Summon a placeholder
         summon minecraft:item ~ ~1 ~ {Tags:["gn.proton_placeholder"], Item:{id:"minecraft:stone", Count:1b}}

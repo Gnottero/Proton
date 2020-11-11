@@ -1,5 +1,5 @@
 #> Get all the items in the crafting grid from the GuiHandler storage
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/main" function
 
     #> Modify the "RecipeHandler" storage to create a list of all the items in the crafting grid
         data modify storage gnottero:proton/block RecipeHandler.RecipeInputItems set value []

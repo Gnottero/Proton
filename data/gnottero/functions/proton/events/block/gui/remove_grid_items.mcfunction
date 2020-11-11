@@ -1,5 +1,5 @@
 #> Remove the item(s) in the crafting grid
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/main" function
 
     #> First Row
         data remove storage gnottero:proton/block GuiHandler[{Slot:1b}]

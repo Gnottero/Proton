@@ -1,13 +1,6 @@
 #> Check which GUI element is missing and set it back
     #> Called by the "gnottero:proton/events/block/gui/main" function
 
-    tellraw @p [{"text": "Reset Inv "},{"nbt":"GuiHandler[{Slot:0b}].id","storage":"gnottero:proton/block"}]
-
-    #> Cambiare il sistema:
-    # Si rimuovono i placeholder della gui dallo storage
-    # Si evoca il l'item diverso
-    # Si resetta l'inventario
-
     #> Remove the placeholders from the "" storage and run the function if there are still elements inside
         data remove storage gnottero:proton/block GuiItems[{tag:{ctc:{from: "gnottero:proton",traits:{"item/placeholder":1b}}}}]
 

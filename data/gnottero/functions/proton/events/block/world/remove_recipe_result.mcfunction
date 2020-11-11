@@ -1,5 +1,5 @@
 #> Find the recipe resul item and remove it
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/world/remove_block" function
 
     #> Store the item data inside a temporary storage
         data modify storage gnottero:proton/block FindResult.ItemToTest set from entity @s Item

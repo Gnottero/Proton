@@ -1,5 +1,5 @@
 #> Check all the recipes that use 8 items to craft
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/recipe_checker" function
 
     #> Check the items and call the right function
         execute if score #gn.found_recipe gn.proton_check matches 0 if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:1b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:3b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:10b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:11b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:12b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:19b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:20b, id:"minecraft:iron_block"}] if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[{Slot:21b, id:"minecraft:iron_block"}] run function test_pack:test_pack/recipes/recipe_handlers/though_iron_chestplate

@@ -1,5 +1,5 @@
 #> Summon the block item and kill the armor stand
-    #> Called by the "gnottero:proton/events/block/world/main" function
+    #> Called by the "gnottero:proton/events/block/main" function
 
     #> Summon the block item
         loot spawn ~ ~ ~ loot gnottero:proton/block/proton_crafting

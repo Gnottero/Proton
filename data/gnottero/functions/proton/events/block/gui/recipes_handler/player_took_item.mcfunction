@@ -1,7 +1,5 @@
 #> Check which recipe was used by the player and call the right function
-    # Called by the "" function
-
-    # say took
+    # Called by the "gnottero:proton/events/block/gui/recipes_handler/main" function
 
     #> Clear the "TempStorage" storage
         data remove storage gnottero:proton/block TempStorage

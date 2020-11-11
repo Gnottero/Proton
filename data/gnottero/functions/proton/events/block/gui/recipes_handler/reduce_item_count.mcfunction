@@ -1,5 +1,5 @@
 #> Loop through the "" storage and reduce the count by one
-    #> Called by some shapeless recipes
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/player_took_item" function
 
     #> Reduce the count of the first item of the array
         execute store result storage gnottero:proton/block RecipeHandler.RecipeInputItems[0].Count byte 0.984375 run data get storage gnottero:proton/block RecipeHandler.RecipeInputItems[0].Count

@@ -1,5 +1,5 @@
 #> Give back to the player all the items that he didn't take
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/player_took_item" function
 
     #> Remove the items in the result slot
         data remove block ~ ~ ~ Items[{Slot:15b}]

@@ -1,4 +1,4 @@
-#> Main function of the "" folder. Handle the events of the block when the barrel is open
+#> Main function of the "gnottero:proton/events/block/gui/" folder. Handle the events of the block when the barrel is open
     #> Called by the "gnottero:proton/events/block/main" function
 
     #> Store the barrel content inside the "gnottero:proton/block" storage

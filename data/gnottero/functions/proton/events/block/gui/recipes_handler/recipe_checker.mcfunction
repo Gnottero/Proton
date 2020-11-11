@@ -1,6 +1,5 @@
 #> Check if there is a recipe pattern in the "" storage and run the corresponding function
-    #> Called by the "" function
-
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/main" function
 
     #> Check if there is a recipe pattern
         execute if score #gn.found_recipe gn.proton_check matches 0 if score #gn.recipe_length gn.proton_check matches 9 run function gnottero:proton/events/block/gui/recipes_handler/recipes/nine_items_recipes

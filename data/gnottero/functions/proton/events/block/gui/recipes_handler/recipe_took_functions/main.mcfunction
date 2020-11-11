@@ -1,5 +1,5 @@
 #> Main function of this folder. Check the "#gn.special_recipe_id" scoreboard value and call the right function
-    #> Called by the "" function
+    #> Called by the "gnottero:proton/events/block/gui/recipes_handler/player_took_item" function
 
     #> Check the "#gn.special_recipe_id" scoreboard and call the right function (colpevole)
         execute if score #gn.special_recipe_id gn.proton_check matches 1 run function test_pack:test_pack/recipes/take_recipe/string_from_web
