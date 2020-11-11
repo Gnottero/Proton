@@ -1,1 +1,1 @@
-{"gnottero":{"utils":{"$adv":{"has_placed_crafting":["place"]}}}}
+{"gnottero":{"utils":{"$adv":{"has_placed_crafting":["place"]}},"proton":{"$adv":{"proton":["trigger"]}}}}

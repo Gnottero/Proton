@@ -13,5 +13,8 @@
     #> If the armor stand has the "gn.is_crafting" tag and there is a result nearby, kill it
         execute if entity @s[type=minecraft:armor_stand, tag=gn.is_crafting] run kill @e[type=minecraft:item, nbt={Age:0s, Item:{tag:{gn.proton_crafting_result:1b}}}, distance=..1.2]
 
+    #> Remove all the placeholder on the ground
+        kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:black_stained_glass_pane", tag:{CustomModelData:1281000,ctc:{id:"proton_crafting",from:"gnottero:proton",traits:{"item":1b, "item/placeholder":1b}}}}}]
+
     #> Kill the executor
         kill @s

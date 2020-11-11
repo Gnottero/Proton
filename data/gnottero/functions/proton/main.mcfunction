@@ -8,6 +8,3 @@
 
     #> Remove all the placeholder on the ground
         kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:black_stained_glass_pane", tag:{CustomModelData:1281000,ctc:{id:"proton_crafting",from:"gnottero:proton",traits:{"item":1b, "item/placeholder":1b}}}}}]
-
-    #> Scheduling this function
-        schedule function gnottero:proton/main 1t

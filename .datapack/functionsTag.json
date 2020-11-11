@@ -1,1 +1,1 @@
-{"minecraft":{"$tags":["load"]},"gnottero":{"proton":{"$tags":["load"]}}}
+{"minecraft":{"$tags":["load","tick"]},"gnottero":{"proton":{"$tags":["load","loop"]}}}

@@ -10,4 +10,4 @@
         clear @a minecraft:item_frame{ctc:{id:"proton_crafting", from:"gnottero:proton", traits:{"block":1b, "block/crafting_table":1b}}}
 
     #> Disable the datapack
-        schedule clear gnottero:proton/main
+        datapack disable "file/Proton"
