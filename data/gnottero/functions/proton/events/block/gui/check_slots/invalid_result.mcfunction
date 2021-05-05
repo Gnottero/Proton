@@ -8,4 +8,4 @@
         data modify entity @e[type=minecraft:item, distance=..1.2, limit=1, tag=gn.proton_placeholder, nbt={Item:{id:"minecraft:stone"}}] Item set from storage gnottero:proton/block GuiHandler[{Slot:15b}]
 
     #> Remove the item from the 15th slot
-        replaceitem block ~ ~ ~ container.15 minecraft:air
+        item block ~ ~ ~ container.15 replace minecraft:air

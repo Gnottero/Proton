@@ -8,7 +8,7 @@
         execute if block ~ ~ ~ minecraft:barrel[open=true, facing=up] run function gnottero:proton/events/block/gui/main
 
     #> Reset the "Fire" tag if the armor stand isn't on fire
-        data modify entity @s[nbt={Fire:0s}] Fire set value 32767s
+        execute if data entity @s {Fire:0s} run data modify entity @s Fire set value 32767s
 
     #> Call the "gnottero:proton/events/block/world/remove_block" function to handle the block breaking events
         execute unless block ~ ~ ~ minecraft:barrel[facing=up] run function gnottero:proton/events/block/world/remove_block

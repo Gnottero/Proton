@@ -5,3 +5,4 @@
 
     #> Reset the "#gn.special_recipe_id" scoreboard value
         scoreboard players reset #gn.special_recipe_id gn.proton_check
+

@@ -8,3 +8,6 @@
 
     #> Call the function if there "" scoreboard value is bigger than 1
         execute if data storage gnottero:proton/block RecipeHandler.RecipeInputItems[] run function gnottero:proton/events/block/gui/recipes_handler/reduce_item_count
+
+    #> Remove the "gn.is_crafting" tag
+        tag @s remove gn.is_crafting

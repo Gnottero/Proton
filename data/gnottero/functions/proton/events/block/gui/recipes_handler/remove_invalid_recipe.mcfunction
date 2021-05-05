@@ -5,7 +5,7 @@
         execute store success score #gn.is_recipe_output gn.proton_check run data modify storage gnottero:proton/block RecipeHandler.RecipeOutputItem set from storage gnottero:proton/block GuiHander[{Slot:15b}]
 
     #> If the item was a crafting result, remove item
-        execute if score #gn.is_recipe_output gn.proton_check matches 0 run replaceitem block ~ ~ ~ container.15 minecraft:air
+        execute if score #gn.is_recipe_output gn.proton_check matches 0 run item block ~ ~ ~ container.15 replace minecraft:air
 
     #> Remove the "gn.is_crafting" tag from the executor
         tag @s remove gn.is_crafting
